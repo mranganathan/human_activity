@@ -1,6 +1,6 @@
 # human_activity
 
-The run_analysis.R script loads data from:
+From the UCI HAR Dataset folder, the run_analysis.R script loads the following:
 
 * activity_labels.txt
 * features.txt
@@ -10,6 +10,9 @@ The run_analysis.R script loads data from:
 * subject_test.txt
 * X_test.txt
 * y_test.txt
+
+
+Due to the size of the UCI HAR Dataset folder, I did not push it to Github.
 
 
 The R script does the following:
