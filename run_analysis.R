@@ -64,3 +64,6 @@ data <- data[, c("person", "activity_name", means)]
 summary <- data %>%
   group_by(person, activity_name) %>%
   summarise(across(where(is.numeric), mean))
+
+## Save summary dataframe as txt file
+write.table(summary, "summary.txt", row.names = FALSE)
